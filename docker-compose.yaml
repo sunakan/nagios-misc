@@ -1,0 +1,11 @@
+---
+version: '3.8'
+
+services:
+  nagios:
+    image: jasonrivers/nagios
+    #build:
+    #  context: ./
+    #  dockerfile: Dockerfile
+    ports:
+      - 80:80
